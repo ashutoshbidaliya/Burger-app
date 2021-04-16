@@ -13,6 +13,7 @@ const INGREDIENT_PRICES = {
     bacon: 0.7
 }
 
+
 class BurgerBuilder extends Component {
     // constructor(props) {
     //     super(props);
@@ -96,6 +97,7 @@ class BurgerBuilder extends Component {
                     ordered={this.purchaseHandler}
                     price={this.state.totalPrice}
                     />
+                <BuildControls />
             </Auxiliary>
         )
     }
